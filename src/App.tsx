@@ -1,10 +1,5 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <p>Hello World</p>;
+    return <button className="btn">Hello World</button>
 }
 
-export default App;
+export default App
